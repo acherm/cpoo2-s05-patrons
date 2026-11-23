@@ -1,0 +1,14 @@
+' S05 Q1 : la machine à états du distributeur de bonbons.
+' Les quatre états sont déclarés. Ajoutez les transitions, une par ligne :
+'   SansPiece --> AvecPiece : insererPiece()
+@startuml
+title Le distributeur de bonbons, à états
+
+state SansPiece
+state AvecPiece
+state BonbonVendu
+state Vide
+
+[*] --> SansPiece
+
+@enduml
